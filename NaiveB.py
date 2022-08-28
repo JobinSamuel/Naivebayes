@@ -4,7 +4,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import MultinomialNB as MB
 from sklearn.metrics import accuracy_score
 
-###Question -1
+###Prepare a classification model using the Naive Bayes algorithm for the salary dataset. Train and test datasets are given separately. Use both for model building. 
+
 sal_tr = pd.read_csv("/Users/jobinsamuel/Desktop/Assignments/Naive bias/Datasets_Naive Bayes/SalaryData_Train.csv")
 sal_ts = pd.read_csv("/Users/jobinsamuel/Desktop/Assignments/Naive bias/Datasets_Naive Bayes/SalaryData_Test.csv")
 
